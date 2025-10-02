@@ -1,3 +1,5 @@
-import { movie } from "./movie";
+import {movie} from './movie'
+import {translator} from './translator'
+import {watchlist} from './watchlist'
 
-export const schemaTypes = [movie]
+export const schemaTypes = [movie, translator, watchlist]
